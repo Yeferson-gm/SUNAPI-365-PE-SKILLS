@@ -1,0 +1,45 @@
+{
+  "name": "skill-sunapi-365-pe",
+  "version": "1.3.0",
+  "description": "Private proprietary SUNAPI operational skills for Claude Code, Codex, and OpenCode.",
+  "author": "CEDRUS TECHNOLOGY GROUP S.A.C",
+  "license": "UNLICENSED",
+  "type": "module",
+  "homepage": "https://development.sunapi.site/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yeferson-gm/SUNAPI-365-PE-SKILLS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yeferson-gm/SUNAPI-365-PE-SKILLS/issues"
+  },
+  "bin": {
+    "skill-sunapi-365-pe": "./bin/skill-sunapi-365-pe.mjs"
+  },
+  "files": [
+    "bin",
+    "claude-code",
+    "codex",
+    "opencode",
+    "README.md",
+    "LICENSE.md",
+    "install.sh"
+  ],
+  "scripts": {
+    "check": "bun run bin/skill-sunapi-365-pe.mjs --help"
+  },
+  "keywords": [
+    "sunapi",
+    "sunat",
+    "claude-code",
+    "codex",
+    "opencode",
+    "skills",
+    "mcp",
+    "peru",
+    "facturacion-electronica"
+  ],
+  "engines": {
+    "bun": ">=1.3.9"
+  }
+}

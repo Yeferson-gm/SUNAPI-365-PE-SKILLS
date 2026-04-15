@@ -1,0 +1,34 @@
+# Runtime install targets
+.claude/
+.agents/
+.opencode/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+.tmp/
+*.zip
+*.tar.gz
+*.tgz
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Keep repository metadata and installers tracked
+!README.md
+!AGENTS.md
+!LICENSE.md
+!install.sh
+!package.json
